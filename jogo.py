@@ -32,3 +32,7 @@ def jogar():
 
     if tentativas == 0:
         print("Perdeu! A palavra era:", palavra)
+
+def verificar_letra(palavra, letra, letras_acertadas):
+    return letra in palavra
+
