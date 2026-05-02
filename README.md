@@ -32,3 +32,25 @@ O objetivo do jogo da forca é adivinhar uma palavra secreta, indicando letras, 
 - Repetições:
   - Letras já usadas não devem penalizar novamente
 
+
+## Requisitos do Sistema
+
+### Requisitos Funcionais (o que o sistema faz)
+
+1. O sistema deve selecionar aleatoriamente uma palavra secreta a partir de uma lista predefinida.
+2. O sistema deve apresentar a palavra sob a forma de traços (`_`), ocultando as letras.
+3. O sistema deve permitir ao jogador inserir uma letra por tentativa.
+4. O sistema deve verificar se a letra inserida pertence à palavra secreta.
+5. O sistema deve atualizar o estado do jogo após cada jogada.
+6. O sistema deve identificar automaticamente o fim do jogo (vitória ou derrota).
+
+### Requisitos Não Funcionais (como o sistema deve ser) 
+
+1. O jogo deve ser simples e intuitivo.
+2. O sistema deve responder rapidamente às ações do jogador.
+3. O sistema deve validar a entrada. O sistema deve ignorar caracteres especiais ou números, aceitando apenas letras do alfabeto sem interromper a execução.
+
+
+
+
+
