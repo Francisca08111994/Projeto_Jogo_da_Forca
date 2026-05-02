@@ -20,8 +20,17 @@ def jogar():
         if "_" not in resultado:
             print("Ganhou!")
             break
+# Tratamento de erros
+        try:
+            tentativa = input("Escolhe uma letra: ").lower()
 
-        tentativa = input("Escolhe uma letra: ")
+            if len(tentativa) != 1 or not tentativa.isalpha():
+               raise ValueError("Introduz apenas uma letra válida!")
+
+        except ValueError as e:
+            print("⚠ Erro:", e)
+            continue
+
 
         if tentativa in palavra:
             letras_acertadas.append(tentativa)
