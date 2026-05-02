@@ -14,7 +14,7 @@ O objetivo do jogo da forca é adivinhar uma palavra secreta, indicando letras, 
   - O jogador perde uma tentativa.
 - Letras já tentadas não devem contar novamente.
 
-# Condoções de Vitória/ Derrota
+# Condições de Vitória/ Derrota
 - Vitória
   - O jogador ganha quando consegue descobrir todas as letras da palavra antes de esgotar as tentativas.
 - Derrota
