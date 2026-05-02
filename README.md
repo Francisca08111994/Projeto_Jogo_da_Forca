@@ -32,6 +32,22 @@ O objetivo do jogo da forca é adivinhar uma palavra secreta, indicando letras, 
 - Repetições:
   - Letras já usadas não devem penalizar novamente
 
+# Instruções de execução
+1. Abrir o terminal na pasta do projeto
+2. Executar o ficheiro principal
+
+# Exemplo de utilização
+Bem-vindo ao Jogo da Forca!
+
+Palavra: _ _ _ _ _ _
+
+Escolhe uma letra: p
+Correto!
+
+Palavra: p _ _ _ _ _
+Escolhe uma letra: x
+Errado! Tentativas restantes: 5
+
 
 ## Requisitos do Sistema
 
